@@ -62,7 +62,7 @@ const PORT = 3000
       
       
 
-    // PUT = Atualizar Varios
+    // PUT = Atualizar 
     app.put('/usuarios/:id', async (req, res) => {
         try {
           const { name, age, email } = req.body;
